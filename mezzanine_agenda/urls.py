@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from django.conf.urls import  url
 
 from mezzanine.conf import settings
-
+from mezzanine_agenda.views import *
 
 # Trailing slash for urlpatterns based on setup.
 _slash = "/" if settings.APPEND_SLASH else ""
